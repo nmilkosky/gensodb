@@ -1,0 +1,28 @@
+{
+    "bombardment": {
+        "short": "Bmb",
+        "long": "Bombardment",
+        "equipment": ["weapon", "armor", "charm"],
+        "game_desc": "Bombardment +$value",
+        "long_desc": "Affects danmaku skills. Typically modifies range but can also modify other features.",
+        "parameters": ["value"]
+    },
+
+    "small_appetite": {
+        "short": "SAp",
+        "long": "Small Appetite",
+        "equipment": ["armor", "charm"],
+        "game_desc": "Hunger Speed: %$value",
+        "long_desc": "Reduces the rate at which belly depletes by a percentage.",
+        "parameters": ["value"]
+    },
+
+    "add_confuse": {
+        "short": "Cnf",
+        "long": "Add Confuse",
+        "equipment": ["weapon", "charm"],
+        "game_desc": "Chance: %$chance\nDuration: $duration turns",
+        "long description": "Adds a chance to confuse to each weapon hit.",
+        "parameters": ["chance", "duration"]
+    }
+}

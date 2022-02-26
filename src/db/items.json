@@ -1,0 +1,25 @@
+{
+    "testitem01": {
+        "name": "Test Item 01",
+        "type": "weapon",
+        "abilities": {
+            "innate": {
+                "bombardment": {
+                    "value": 2
+                }
+            },
+            "resonance": {
+                "small_appetite": {
+                    "value": 75
+                }
+            },
+            "additional": {
+                "add_confuse": {
+                    "chance": 5,
+                    "duration": 2
+                }
+            }
+
+        }
+    }
+}
